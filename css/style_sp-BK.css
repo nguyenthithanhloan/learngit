@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/*---------------------------------------
+    リセットCSS（編集不要）
+----------------------------------------*/
+#wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+
+/*  header
+----------------------------------------*/
+.inner {
+  max-width: 100%;
+  margin: 0 auto;
+}
+#header #logo {
+  width: 38.28%;
+  padding: 0;
+}
+#header #logo img {
+  display: block;
+}
+#header #logo a {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: none;;
+}
+#form_box {
+  width: 100%;
+  padding: 0;
+  float: left;
+  margin-left: 0;
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background: #ffffff;
+  border-top: 1px solid #959595;
+}
+#form_box #search_form {
+  padding: 8px 2%;
+  line-height: 36px;
+}
+#form_box .input_size {
+  width: 84%;
+  color: #828282;
+  background: #ffffff;
+}
+#form_box #search_btn {
+  float: right;
+  background-size: 100% auto;
+}
+#search_form:-ms-input-placeholder,
+#search_form::-moz-placeholder,
+#search_form::-webkit-input-placeholder {
+  font-size: 92%;
+}
+
+
+#header .search_sp {
+  width: 15.3%;
+  display: inline-block;
+}
+
+
+#header .info_page {
+  width: 46.26%;
+  float: right;
+  padding: 0;
+  overflow: hidden;
+}
+#header .tel_top {
+  width: 66.77%;
+  float: right;
+  text-align: right;
+}
+#header .tel_top span {
+  display: none;
+}
+#header .info_page .tel_top .tel {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: none;
+}
+#header .info_page .tel_top .tel img {
+  display: block;
+}
+#header .view_cart {
+  width: 32.99%;
+  float: left;
+  padding: 0;
+  min-height: auto;
+}
+#header .view_cart .item_cart {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#header .view_cart .item_cart img {
+  display: block;
+}
+#header .tel_top .order_mobile {
+  display: none;
+}
+#header .view_cart .free_shipping {
+  display: none;
+}
+
+#nav {
+  display: none;
+}
+
+
+/*  nav
+----------------------------------------*/
+
+
+/*  footer
+----------------------------------------*/
+#footer {
+  height: 100%;
+  background-size: 100% 100%;
+}
+#footer .footer_info {
+  width: 86%;
+  padding: 17px 0 5px;
+}
+#footer .footer_info li a {
+  font-size: 10px;
+  line-height: 1.3em;
+}
+#footer .copy_right {
+  background: #0083c1;
+  font-size: 10px;
+  padding-bottom: 10px;
+}

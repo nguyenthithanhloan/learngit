@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+/*---------------------------------------
+    リセットCSS（編集不要）
+----------------------------------------*/
+#wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+
+/*  header
+----------------------------------------*/
+.inner {
+  max-width: 100%;
+  margin: 0 auto;
+}
+#header #logo {
+  width: 38.28%;
+  padding: 0;
+}
+#header #logo img {
+  display: block;
+}
+#header #logo a {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: none;;
+}
+#form_box {
+  width: 100%;
+  padding: 0;
+  float: left;
+  margin-left: 0;
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background: #ffffff;
+  border-top: 1px solid #959595;
+}
+#form_box #search_form {
+  padding: 8px 2%;
+  line-height: 36px;
+}
+#form_box .input_size {
+  width: 84%;
+  color: #828282;
+  background: #ffffff;
+}
+#form_box #search_btn {
+  float: right;
+  background-size: 100% auto;
+}
+#search_form:-ms-input-placeholder,
+#search_form::-moz-placeholder,
+#search_form::-webkit-input-placeholder {
+  font-size: 92%;
+}
+
+
+#header .search_sp {
+  width: 15.3%;
+  display: inline-block;
+}
+
+
+#header .info_page {
+  width: 46.26%;
+  float: right;
+  padding: 0;
+  overflow: hidden;
+}
+#header .tel_top {
+  width: 66.77%;
+  float: right;
+  text-align: right;
+}
+#header .tel_top span {
+  display: none;
+}
+#header .info_page .tel_top .tel {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: none;
+}
+#header .info_page .tel_top .tel img {
+  display: block;
+}
+#header .view_cart {
+  width: 32.99%;
+  float: left;
+  padding: 0;
+  min-height: auto;
+}
+#header .view_cart .item_cart {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#header .view_cart .item_cart img {
+  display: block;
+}
+#header .tel_top .order_mobile {
+  display: none;
+}
+#header .view_cart .free_shipping {
+  display: none;
+}
+
+/*  nav
+----------------------------------------*/
+.tab_change, .menu_bar, .ico_bars_close {
+  display: block;
+}
+.menu_bar {
+  position: fixed;
+  left: 0;
+  z-index: 99999;
+  top: 30px;
+  background: url(/img/share/sp/ico-bars_bg.png) left center no-repeat;
+  width: 3px;
+  height: 152px;
+}
+.menu_bar img.ico_bars {
+  width: 40px!important;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+#nav img.ico_bars_close {
+  position: absolute;
+  width: auto;
+  height: auto;
+  width: 40px;
+  right: -40px;
+  bottom: 40px;
+  cursor: pointer;
+}
+.tab_change img {
+  width: 20px!important;
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+.tab_change {
+  background: #038ed1;
+  vertical-align: middle;
+}
+.tab_change div {
+  float: left;
+  line-height: 20px;
+  width: 50%;
+  background: #038ed1;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.tab_change div.active {
+  background: #0183c1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=180, Color=#000000)";/*IE 8*//*FF 3.5+*//*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: 10px 0 12px -4px rgba(0,0,0,0.2) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=12, Direction=135, Color=#000000); /*IE 5.5-7*/
+}
+
+#nav {
+  clear: both;
+  width: 84%;
+  height: auto;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99998;
+  display: block;
+  margin-left: -100%;
+  opacity: 0.5;
+  border-right: 2px solid #0183c1;
+  border-bottom: 2px solid #0183c1;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
+}
+
+#nav.open {
+  display: block;
+}
+.lock_scroll {
+  overflow: hidden;
+}
+#nav .section_menu {
+  height: 100%;
+}
+#nav .section_menu > ul {
+  background: url(../img/share/ico-line_nav.gif) no-repeat right center;
+  overflow-y: scroll;
+  height: 100%;
+}
+#nav .section_menu > ul:after {
+  content:".";display:block;visibility:hidden;height:0.1px;font-size:0.1em;line-height:0;clear:both;
+}
+#nav .section_menu > ul > li {
+  width: 100%;
+  text-align: center;
+  float: left;
+  line-height: 27px;
+  height: auto;
+  position: relative;
+  background: url(../img/share/ico-line_nav.gif) no-repeat left center;
+}
+#nav .section_menu > ul > li > a {
+  color: #686868;
+  font-size: 117%;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 11px 10px 8px;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #e6e6e6;
+}
+#nav .section_menu > ul > li > a > span {
+  padding-right: 15px;
+  display: block;
+  background: url(/img/share/sp/ico-arrow_nav.gif) no-repeat right center;
+}
+
+/* メニユー
+----------------------------------------*/
+#nav .sub_nav {
+  overflow-y: scroll;
+  display: none;
+  position: relative;
+  width: 100%;
+  z-index: 1800;
+  background: #fff;
+  padding: 0;
+}
+#nav .sub_nav li {
+  width: 100%;
+  float: none;
+  position: relative;
+}
+#nav .sub_nav li ul {
+    top: 0;
+    right: 0;
+}
+#nav li:hover > .sub_nav {
+  display: none;
+}
+#nav .sub_nav li {
+  width: 100%;
+  display: block;
+  vertical-align: middle;
+  position: relative;
+  text-align: left;
+}
+#nav .sub_nav li a {
+  display: block;
+  color: #686868;
+  font-size: 117%;
+  padding: 3px;
+  text-decoration: none;
+  background: url(../img/share/sp/ico-arrow_link.gif) no-repeat 96% center;
+  border-bottom: 1px solid #ccc;
+}
+
+#nav .sub_nav .dropdown a {
+  background: url(../img/share/sp/ico-arrow_nav.gif) no-repeat 96% center;
+}
+#nav .sub_nav .item {
+  display: block;
+  border-bottom: 1px solid #f1ede7;
+}
+#nav .sub_nav .thumb {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 6px;
+  width: 44px;
+  text-align: center;
+}
+#nav .sub_nav .thumb img {
+  vertical-align: middle;
+}
+#nav .sub_nav .name {
+  width: 130px;
+}
+
+/*  nav
+----------------------------------------*/
+
+/*  nav
+----------------------------------------*/
+
+
+/*  footer
+----------------------------------------*/
+#footer {
+  height: 100%;
+  background-size: 100% 100%;
+}
+#footer .footer_info {
+  width: 86%;
+  padding: 17px 0 5px;
+}
+#footer .footer_info li a {
+  font-size: 10px;
+  line-height: 1.3em;
+}
+#footer .copy_right {
+  background: #0083c1;
+  font-size: 10px;
+  padding-bottom: 10px;
+}

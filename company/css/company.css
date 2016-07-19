@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    Content Page Company
+----------------------------------------*/
+
+#company .title_company {
+  font-size: 32px;
+  line-height: 1;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #0083c1;
+  color: #0083c1;
+}
+
+#company dl {
+  padding: 15px 0;
+  border-bottom: 1px solid #787878;
+  display: block;
+}
+#company dl:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#company dt {
+  float: left;
+  font-size: 100%;
+  font-weight: bold;
+  color: #000;
+  line-height: 2;
+  width: 20%;
+  vertical-align: middle;
+}
+#company dd {
+  float: left;
+  font-size: 100%;
+  color: #787878;
+  line-height: 2;
+  width: 80%;
+  vertical-align: middle;
+}
+
+#company dd a {
+  color: #0083c1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  /*----------------------------------------
+      Content Page Company
+  ----------------------------------------*/
+  #contents {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  }
+  #content_inner {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+  #side {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+  #company .title_company {
+    font-size: 150%;
+    line-height: 1;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0083c1;
+    color: #0083c1;
+  }
+
+  #company dl {
+    padding: 8px 0;
+    border-bottom: none;
+    display: block;
+  }
+  #company dl:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  #company dt {
+    float: left;
+    font-size: 100%;
+    font-weight: bold;
+    color: #000;
+    line-height: 2;
+    width: 25%;
+    vertical-align: middle;
+  }
+  #company dd {
+    float: left;
+    font-size: 100%;
+    color: #787878;
+    line-height: 2;
+    width: 72%;
+    margin-left: 3%;
+    vertical-align: middle;
+  }
+
+  #company dd a {
+    color: #0083c1;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #banner_side {
+    display: block;
+  }
+  #banner_side li {
+    display: none;
+  }
+  #banner_side li:first-child {
+    display: block;
+  }
+  #side .title {
+    display: none;
+  }
+  #handling_card {
+    display: none;
+  }
+
+}

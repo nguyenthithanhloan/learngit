@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    slider area
+----------------------------------------*/
+.swiper-pagination {
+  left: 42%;
+}
+#main_visual {
+  width: 100%;
+}
+#main_visual img {
+  width: 100%;
+  height: auto;
+}
+#main_visual .slider {
+  width: 100%;
+}
+
+
+#arrow_slider .btn_prev, #arrow_slider .btn_next {
+  width: 15px;
+  height: 20px;
+  margin-top: -10px;
+  background-size: 100% auto;
+}
+.swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  margin-right: 12px;
+  background-size: 6px 6px;
+}
+.swiper-pagination-bullet-active {
+  background-size: 7px 7px;
+}
+
+/*----------------------------------------
+    product info
+----------------------------------------*/
+#product_info {
+  display: block;
+  padding: 15px 0;
+  -webkit-box-shadow: inset 0px 2px 8px -1px rgba(200,203,204,0.62);
+  -moz-box-shadow: inset 0px 2px 8px -1px rgba(200,203,204,0.62);
+  box-shadow: inset 0px 2px 8px -1px rgba(200,203,204,0.62);
+}
+#product_info li {
+  width: 80.78%;
+  margin: 0 auto;
+}
+#product_info li:first-child {
+  margin-bottom: 12px;
+}
+#feature_box {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0;
+  position: relative;
+  padding-bottom: 32px;
+  background: url(../img/index/sp/bg-box_bottom.gif) no-repeat bottom center;
+  background-size: 100%;
+}
+#feature_box .feature_content {
+  border: none;
+  padding: 0 28px 0 29px;
+}
+#feature_box .detail_list .item {
+  width: 100%;
+  float: left;
+  margin-top: 13px;
+  padding-left: 0;
+  display: table;
+}
+#feature_box .detail_list .item span {
+  width: 40%;
+}
+#feature_box .detail_list .item .text_feature {
+  width: 60%;
+}
+#feature_box .detail_list .item .text_feature {
+  font-size: 100%;
+}
+#new_box {
+  margin-top: 0;
+}
+#new_box .new_bottom {
+  padding-bottom: 32px;
+  background: url(../img/index/sp/bg-box_bottom.gif) no-repeat bottom center;
+  background-size: 100%;
+}
+#new_box .new_list dt, #new_box .new_list dd {
+  display: block;
+}
+#new_box .new_list dd {
+  font-size: 100%;
+}
+#new_box  .view_more {
+  overflow: hidden;
+}
+#new_box  .view_more a {
+  width: 23%;
+  float: right;
+}
+#new_box .new_list dl {
+  display: none;
+}
+#new_box .new_list dl.show {
+  display: block;
+}
+
+#product_box {
+  margin-top: 0;
+}
+#product_box .product_content {
+  padding-bottom: 32px;
+  background: url(../img/index/sp/bg-box_bottom.gif) no-repeat bottom center;
+  background-size: 100%;
+}
+#product_box .product_list {
+  border: none;
+}
